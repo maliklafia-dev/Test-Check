@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: poppins;
+    gap: 10rem;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.task2 {
+    height: 200px;
+    width: 300px;
+}
+
+#btn {
+    border: none;
+    background-color: #1F90F9;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

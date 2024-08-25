@@ -10,3 +10,12 @@ function getEvenNumbers(tab) {
 }
 
 console.log(getEvenNumbers([1, 2, 3, 4, 5, 6]));
+
+/*Task 2 | DOM Interaction*/
+
+let btn = document.getElementById("btn"); //Recover the button element
+
+btn.addEventListener("click", () => {
+  let textElement = document.getElementById("myText"); //recover the paragraph with id "my test" when the button is clicked
+  textElement.textContent = "Hello Check!"; //change the current text to "Hello Check!"
+});
