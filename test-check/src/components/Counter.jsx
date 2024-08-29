@@ -16,9 +16,9 @@ export default function Counter() {
     return (
         <div class="container">
           <p>Task 2</p>
-            <button id="btn"  onClick={increment}>-</button> 
+            <button id="btn"  onClick={decrement}>-</button> 
             <p>Counter : {counter}</p>
-            <button id="btn"  onClick={decrement}>+</button>
+            <button id="btn"  onClick={increment}>+</button>
         </div>
         //when the button is clicked, the increment function is called
     );
